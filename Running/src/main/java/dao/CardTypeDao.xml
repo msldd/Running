@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.CardTypeDao">
+	<select id="findAll" resultType="entity.CardType">
+		select * from card_type where
+		1=1
+	</select>
+	<insert id="addNewCard" parameterType="entity.CardType">
+		INSERT
+		INTO card_type
+		(cName,serverDiscount,productDiscount,realPay,dayLimit,birthdayDiscount)
+		VALUES
+		(#{cName},#{serverDiscount},#{productDiscount},#{realPay},#{dayLimit},#{birthdayDiscount});
+	</insert>
+	<update id="updateCardType" parameterType="entity.CardType">
+		UPDATE
+		`onlyu`.`card_type` SET `cName` = #{cName}
+		,`serverDiscount` = #{serverDiscount}
+		,`productDiscount` = #{productDiscount} 
+		,`realPay` = #{realPay}
+		,`dayLimit` = #{dayLimit}
+		,`birthdayDiscount` = #{birthdayDiscount} 
+		WHERE `cId` = '6';
+	</update>
+
+</mapper> 
