@@ -1,7 +1,7 @@
 package entity;
 
 public class Admin {
-	private Integer aId;//管理员id
+	private Integer aId;//管理员id    、、、、、、、、
 	private String name;//用户名
 	private String pwd;//密码
 	private Integer phone;//电话

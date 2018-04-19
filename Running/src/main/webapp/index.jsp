@@ -132,7 +132,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<a data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-folder-close	"></span>&nbsp;产品与服务设置</a>
 							</li>
 							<li class="list-group-item">
-								<a data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-folder-close	"></span>&nbsp;储物柜管理</a>
+								<a data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-folder-close	"></span>&nbsp;储物柜管理</a>
 							</li>
 							<li class="list-group-item">
 								<a data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-folder-close	"></span>&nbsp;课程管理</a>
@@ -223,7 +223,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<div class="panel-heading">
 					<h4 class="panel-title">
 						<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-							<span class="glyphicon glyphicon-user"></span>&nbsp;BOSSçé¢</a>
+							<span class="glyphicon glyphicon-user"></span>&nbsp;BOSS界面</a>
 					</h4>
 				</div>
 				<!--äºçº§å¯¼èª-->
